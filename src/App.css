@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    place-content: center;
+    place-items: center;
+    text-align: center;
+}
+
+.counter-controls{
+    button:not(:first-child) {
+        margin-left: 1rem;
+    }
+}

@@ -7,7 +7,13 @@ function App() {
   return (
     <>
       <h1>Simple Counter</h1>
-      <p>{count}</p>
+      <h2>{count}</h2>
+      <section className="counter-controls">
+        <button onClick={() => {setCount(count-1)}}>-</button>
+        <button onClick={() => {setCount(count+1)}}>+</button>
+        <button onClick={() => {setCount(0)}}>Reset</button>
+      </section>
+      
     </>
   )
 }
