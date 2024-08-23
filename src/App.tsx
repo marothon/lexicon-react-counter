@@ -9,9 +9,9 @@ function App() {
       <h1>Simple Counter</h1>
       <h2>{count}</h2>
       <section className="counter-controls">
-        <button onClick={() => {setCount(count-1)}}>-</button>
-        <button onClick={() => {setCount(count+1)}}>+</button>
-        <button onClick={() => {setCount(0)}}>Reset</button>
+        <button className='material-symbols-outlined' onClick={() => {setCount(count-1)}}>remove</button>
+        <button className='material-symbols-outlined' onClick={() => {setCount(count+1)}}>add</button>
+        <button className='material-symbols-outlined' onClick={() => {setCount(0)}}>restart_alt</button>
       </section>
       
     </>
